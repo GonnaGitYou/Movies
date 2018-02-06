@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <item
+            android:id="@+id/menuSortNone"
+            android:title="@string/sortOptionNone"/>
+        <item
+            android:id="@+id/menuSortPopular"
+            android:title="@string/sortOptionPopularity" />
+        <item
+            android:id="@+id/menuSortRating"
+            android:title="@string/sortOptionRating" />
+        <item
+            android:id="@+id/menuSortFavorites"
+            android:title="@string/sortOptionFavorites" />
+        <item
+            android:id="@+id/menuShareTrailer"
+            android:title="@string/share_trailer"
+            app:showAsAction="always"
+            app:actionProviderClass="android.support.v7.widget.ShareActionProvider"/>
+
+</menu>

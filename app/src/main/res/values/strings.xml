@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">FlicFinder</string>
+    <string name="main_btn_now_playing">NOW PLAYING...</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sync_account_type">flicfinder.example.com</string>
+    <string name="content_authority">com.example.android.flicfinder</string>
+    <string name="sortOptionNone">No Sort</string>
+    <string name="sortOptionPopularity">Most Popular</string>
+    <string name="sortOptionRating">Voter Rating</string>
+    <string name="sortOptionFavorites">Favorites</string>
+    <string name="favoriteLabel">Mark As Favorite</string>
+    <string name="favoriteLabelRemove">Remove Favorite</string>
+    <string name="title_activity_authentication">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <!--Share Provider Strings-->
+    <string name="share_trailer">Share Trailer</string>
+    <string name="send_to">Send trailer to...</string>
+    <string name="connection_error_msg">Server Connection Error.  Please Try Again!</string>
+</resources>
